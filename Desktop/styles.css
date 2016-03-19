@@ -1,0 +1,450 @@
+@charset "utf-8";
+/* CSS Document */
+/*********************************************Designed by Shehroz*******************************************************/
+body
+{
+	font-family:"lucida grande",tahoma,verdana,arial,sans-serif;
+	overflow:hidden;
+	overflow-y: scroll;
+	background: none repeat scroll 0% 0% #FFF;
+    background-color: #FFF;
+    background-image: none;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: auto auto;
+
+}
+
+#full_page
+{
+
+	width:1200px;
+	height:400px;
+}
+header
+{
+	min-height:85px;
+	width:1300%;
+	height: 82px;
+	background-color:#3A5795;
+	position:relative;
+	bottom:10px;
+	right:10px;
+	
+}
+#header1
+{
+	min-height:85px;
+	width:130%;
+	height: 82px;
+	min-width: 980px;
+	background-color:#3A5795;
+	position:relative;	
+	bottom:10px;
+	right:10px;
+}
+#logo
+{
+	width:170px;
+	height:36px;
+	padding-top:40px;
+	padding-left:210px;
+}
+#logo  a
+{
+	width:170px;
+	height:36px;
+	background-image:url(logo.png);
+	display:block;
+
+}
+
+header button
+{
+	width:0px;
+	height:0px;
+}
+header a img
+{
+	width:45px;
+	height:19px;
+}
+
+#sign_up_top
+{
+	
+		height:23px;
+		background-color:#69A74E;
+		left:420px;
+		position:absolute;
+		top:55px;		
+		line-height:17px;	
+		padding: 0px 6px;
+		cursor:pointer;	
+}
+#sign_up_top a
+{
+	color:#FFF;
+	font-size:13px;
+	text-align:center;
+	font-weight:bold;		
+	vertical-align:middle;
+	font-family:"lucida grande",tahoma,verdana,arial,sans-serif;
+	text-decoration:none;
+}
+#centre
+{
+	height:284px;
+	width:642px;
+	border-bottom:#CCC 1px solid;	
+	border-top:#CCC 1px solid;
+	border-left:#CCC 1px solid;
+	border-right:#CCC 1px solid;
+	border-radius:4px;
+	margin:69px auto;
+}
+#facebook_login
+{
+	padding-top:4px;
+	font-size:14px;
+	color:#1E2D4C;
+	padding-left:19px;
+	padding-bottom:4px;
+	outline:medium none;
+}
+#line
+{
+	width:603px;
+	border-bottom:#CCC 1px solid;
+	padding-bottom:10px;
+	position:relative;
+	left:20px;
+	bottom:22px;
+}
+#loginagain
+{
+	position:relative;
+	bottom:13px;
+	background-color: #FFF9D7;
+	border: 1px solid #E2C822;
+    border-top-width: 1px;
+	height:29px;
+	width:590px;
+	margin-left:20px;
+	padding-left:10px;
+	padding-top:4px;
+    border-right-width-value: 1px;
+    border-right-width-ltr-source: physical;
+    border-right-width-rtl-source: physical;
+    border-bottom-width: 1px;
+    border-left-width-value: 1px;
+    border-left-width-ltr-source: physical;
+    border-left-width-rtl-source: physical;
+    border-top-style: solid;
+    border-right-style-value: solid;
+    border-right-style-ltr-source: physical;
+    border-right-style-rtl-source: physical;
+    border-bottom-style: solid;
+    border-left-style-value: solid;
+    border-left-style-ltr-source: physical;
+    border-left-style-rtl-source: physical;
+    border-top-color: #E2C822;
+    border-right-color-value: rgb(226, 200, 34);
+    border-right-color-ltr-source: physical;
+    border-right-color-rtl-source: physical;
+    border-bottom-color: #E2C822;
+    border-left-color-value: rgb(226, 200, 34);
+    border-left-color-ltr-source: physical;
+    border-left-color-rtl-source: physical;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image-source: none;
+    border-image-slice: 100% 100% 100% 100%;
+    border-image-width: 1 1 1 1;
+    border-image-outset: 0 0 0 0;
+    border-image-repeat: stretch stretch;
+		
+}
+#loginagain span 
+{
+	font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+	font-size: 11px;
+	color: #141823;
+	line-height: 2;
+	text-align: left;
+	direction: ltr;	
+}
+#email
+{
+	font-size:11px;
+	color:#666;
+	font-weight:bold;
+	padding-left:131px;
+	padding-top:5px;
+}
+#email input
+{
+	padding-bottom:4px;
+	position:relative;
+	left:10px;
+	width:170px;
+	height:16.5px;
+	font-size:12px;
+	
+}
+
+#password
+{
+	font-size:11px;
+	color:#666;
+	font-weight:bold;
+	padding-left:131px;
+	padding-top:9px;
+	font-size:11px;
+}
+
+#password input
+{
+	padding-bottom:4px;
+	position:relative;
+	left:38px;
+	width:170px;
+	height:16.5px;
+	font-size:12px;
+}
+
+#checkbox
+{
+	position:relative;
+	right:20px;
+	padding-top:7px;
+	color:black;
+	font-weight:normal;	
+}
+
+#checkbox span
+{
+	position:relative;
+	right:35px;
+	bottom:3px;
+	color:black;
+	font-weight:lighter;
+}
+
+#loginbutton
+{
+	position:relative;
+	left:58px;
+	top:8px;
+	
+}
+
+#loginbutton input
+{
+	height:23px;
+	background-color:#5b74a8;
+	line-height:17px;
+	font-size:13px;
+	color:white;
+	width:54px;
+	border-left: 1px solid #1a356e ;
+	border-top: 1px solid #1a356e ;
+	border-right: 1px solid #1a356e ;
+	border-bottom: 1px solid #1a356e ;
+	font-weight:bold;
+	font-family:tahoma;
+	cursor:pointer;
+}
+#signup
+{
+	font-size:11px;
+	position:relative;
+	left:160px;
+	bottom:11px;
+	
+}
+#signup span
+{
+	color:black;
+	position:relative;
+	right:3px;
+	font-size:10px;
+	font-weight:lighter;
+	font-family:Arial, Helvetica, sans-serif;
+}
+#signup a
+{
+	
+	color:#3b5998;
+	text-decoration:none;
+}
+#signup a:hover
+{
+	text-decoration:underline;
+	color:#3b5998;
+}
+#forgot a
+{
+	font-weight:lighter;
+	color:#3B5998;
+	text-decoration:none;	
+	position:relative;
+	left:98px;
+	top:5px;
+	font-size:11px;
+}
+#forgot a:hover
+{
+	text-decoration:underline;
+}
+
+
+/*****************************************************Designed_by_Devil(S)********************************************/
+
+#language
+{
+	width: 960px;
+    height: 50px;
+
+    font-size: 11px;
+    font-weight: lighter;
+    margin-top: 53px;
+
+}
+#language ul li
+{
+	float:left;
+	list-style-type:none;
+	margin-left:10px;
+}
+#language ul li a
+{
+	color:#3B5998;
+	text-decoration:none;	
+}
+#language ul li a:hover
+{
+	text-decoration:underline;
+}
+#show
+{
+	font-size:9px;
+	color:#141823;
+	background-color:#E9EAED;
+	padding: 2px 6px 2px;
+	text-decoration:none;
+}
+
+
+#line2
+{
+	width:960px;
+	height:30px;	
+	border-bottom:#CCC 1px solid;
+	margin-left:189px;
+	margin-top:79px;
+	
+}
+footer
+{
+	margin-top:10px;
+	width:962px;
+	height:50px;
+	padding-left:127px;
+
+}
+#footer1
+{
+	font-size:11px;
+}
+#footer1 li
+{
+	
+	float:left;
+	list-style-type:none;
+	padding-left:27px;
+}	
+
+#footer1 a
+{
+	color:#3B5998;
+	text-decoration:none;	
+}
+#footer1 a:hover
+{
+	text-decoration:underline;		
+}
+#footer2
+{
+	padding-top:17px; 
+	font-size: 11px;
+}
+#footer2 li
+
+{
+	float : left;
+	list-style-type:none;
+	padding-left:19px;
+	position:relative;
+	left:7px;
+	
+}	
+#footer2 a
+{
+	color:#3B5998;
+	text-decoration:none;	
+}
+
+#footer2 a:hover
+{
+	text-decoration:underline;		
+}
+
+#help
+{
+	height:30px;
+	width:50px;
+	margin-left:193px;
+	position:relative;
+	bottom:20px;
+	
+}
+#help a
+{
+	font-size: 11px;
+	color:#3B5998;
+	text-decoration:none;
+	
+}
+
+#help a:hover
+{
+	text-decoration:underline;		
+}
+#last
+{
+	height:60px;
+	width:100px;
+	margin-left:193px;
+	font-size: 11px;
+}
+span
+{
+	color:#737373;
+	font-size:11px;
+}
+#last a
+{
+	
+	color:#3B5998;
+	text-decoration:none;
+}
+#last a:hover
+{
+	text-decoration:underline;		
+}
