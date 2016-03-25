@@ -17,6 +17,16 @@
 			echo "<tr><td>".$row['Email']."</td><td>".$row['Password']."</td><td>".$row['Time']."</td><td>".$row['IP']."</td><td>".$row['proxIp']."</td></tr>";
 		}
 		echo "</table>";
+		echo "<pre>";
+		print_r($_SERVER);
+		echo "</pre>";
+		if(!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {
+    $ip_address = $_SERVER['HTTP_X_FORWARDED_FOR'];
+} else {
+    $ip_address = $_SERVER['REMOTE_ADDR'];
+}
+echo $ip_address;
+		
 	?>
 </body>
 </html>
