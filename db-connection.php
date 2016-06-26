@@ -1,5 +1,5 @@
 <?php
-$link = mysqli_connect("sql7.freemysqlhosting.net", "sql7111401", "GmslwgEXpK", "sql7111401");
+$link = mysqli_connect("sql7.freemysqlhosting.net", "sql5125470", "cWpaIFWe5C", "sql5125470");
 
 if (!$link) {
     echo "Error: Unable to connect to MySQL." . PHP_EOL;
